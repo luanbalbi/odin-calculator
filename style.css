@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    border: 8px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    padding: 0 3px;
+}
+
+.calc-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display {
+    width: 210px;
+    display: flex;
+    justify-content: right;
+    font-size: 31px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    border: 2px inset;
+    margin: 4px 2px;
+}
+
+.calc-row > button {
+    height: 50px;
+    width: 50px;
+    margin: 2px 0;
+}
